@@ -1,5 +1,4 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#pragma once
 
 #include <QMainWindow>
 #include <QLabel>
@@ -33,4 +32,3 @@ private:
     ImageFile imageFile;
 };
 
-#endif 

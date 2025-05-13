@@ -1,5 +1,4 @@
-#ifndef IMAGEFILE_H
-#define IMAGEFILE_H
+#pragma once
 
 #include <QString>
 #include <QImage>
@@ -17,5 +16,3 @@ public:
 private:
     QByteArray pixelData;
 };
-
-#endif
