@@ -7,7 +7,7 @@
 class ImageFile {
 public:
     bool read(const QString &path);
-    QImage toQImage() const;
+    QImage toQImage(float scale = 1.0f, int brightness = 0, bool r = true, bool g = true, bool b = true) const;
 
     int size;
     int width;

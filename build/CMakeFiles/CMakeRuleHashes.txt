@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-a857e2e5293b36de6891cf27aace27a1 BMPEditor_autogen/timestamp
-8237274d15b469ffd1134b9bd97e72d0 CMakeFiles/BMPEditor_autogen
