@@ -9,6 +9,7 @@ bool ImageFile::read(const QString &path) {
     QByteArray data = file.readAll();
     if (data.size() < 54 || data.mid(0, 2) != "BM") return false;
 
+    // Since BMP files have this in their metadata
     size = qFromLittleEndian<quint32>((const uchar*)data.constData() + 2);
     int offset = qFromLittleEndian<quint32>((const uchar*)data.constData() + 10);
     width = qFromLittleEndian<qint32>((const uchar*)data.constData() + 18);
